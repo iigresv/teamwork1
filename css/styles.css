@@ -33,7 +33,12 @@ button {
   margin: 0 auto;
 }
 
+.header {
+  background-color: #fafafa;
+}
+
 .header-container {
+  align-items: center;
   display: flex;
 }
 .header-nav-list {
@@ -43,10 +48,12 @@ button {
   margin-right: 31px;
 }
 
-header-nav-list-link {
-  padding: ;
+.header-nav-list-link {
+  display: block;
+  padding: 47px 0;
 }
 .header-nav {
+  align-items: center;
   display: flex;
 }
 .logo {
@@ -55,6 +62,17 @@ header-nav-list-link {
 }
 
 .header-button {
+  padding: 8px 20px;
   margin-left: auto;
   margin-right: 40px;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
+
+  color: #f7941e;
 }
