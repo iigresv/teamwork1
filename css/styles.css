@@ -41,9 +41,11 @@ button {
   align-items: center;
   display: flex;
 }
+
 .header-nav-list {
   display: flex;
 }
+
 .header-nav-list-item:not(:last-child) {
   margin-right: 31px;
 }
@@ -52,10 +54,12 @@ button {
   display: block;
   padding: 47px 0;
 }
+
 .header-nav {
   align-items: center;
   display: flex;
 }
+
 .logo {
   margin-left: 80px;
   margin-right: 433px;
@@ -76,20 +80,24 @@ button {
 
   color: #f7941e;
 }
+
 .hero-container {
   display: flex;
 }
+
 .content {
-  display: flex ;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 50%;
-  
-  
+
+
 }
+
 .content-war {
   max-width: 433px;
 }
+
 .hero {
   background-color: #F1F1F2;
 }
@@ -98,34 +106,75 @@ button {
   margin-bottom: 36px;
 
   font-family: 'Roboto', sans-serif;
-font-size: 56px;
-line-height: 69px;
+  font-size: 56px;
+  line-height: 69px;
 
-color: #000000;
+  color: #000000;
 
 }
+
 .hero-text {
   margin-bottom: 60px;
 
   font-family: 'Roboto', sans-serif;
-font-size: 20px;
-line-height: 140.62%;
-/* or 28px */
+  font-size: 20px;
+  line-height: 140.62%;
+  /* or 28px */
 
 
-color: #000000;
+  color: #000000;
 
 }
+
 .hero-button {
   padding: 19px 25px;
   background: #F7941E;
-border-radius: 5px;
-border: none;
-font-family: 'Roboto', sans-serif;
-font-size: 18px;
-line-height: 22px;
-text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-title {
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-bottom: 23px;
+}
+
+.about-text {
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.about-link {
+  display: inline-block;
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 18px;
+  line-height: 134.77%;
+  text-transform: uppercase;
+  color: #F7941E;
+  border-radius: 5px;
+  border: 1px solid #F7941E;
+  padding: 19px 25px;
+}
+
+.about {
+  background: #F1F1F2;
 }
