@@ -76,3 +76,56 @@ button {
 
   color: #f7941e;
 }
+.hero-container {
+  display: flex;
+}
+.content {
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  
+  
+}
+.content-war {
+  max-width: 433px;
+}
+.hero {
+  background-color: #F1F1F2;
+}
+
+.hero-title {
+  margin-bottom: 36px;
+
+  font-family: 'Roboto', sans-serif;
+font-size: 56px;
+line-height: 69px;
+
+color: #000000;
+
+}
+.hero-text {
+  margin-bottom: 60px;
+
+  font-family: 'Roboto', sans-serif;
+font-size: 20px;
+line-height: 140.62%;
+/* or 28px */
+
+
+color: #000000;
+
+}
+.hero-button {
+  padding: 19px 25px;
+  background: #F7941E;
+border-radius: 5px;
+border: none;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
